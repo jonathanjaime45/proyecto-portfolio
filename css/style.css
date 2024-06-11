@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaWdvJTIwZGUlMjBwcm9ncmFtYWNpb258ZW58MHx8MHx8fDA%3D");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #FFFFFF;
+    
 }
 
 body{
@@ -16,10 +12,13 @@ body{
 
 
 .wrapper {
-    width: 80vw;
-    height: 70vh;
-    background-color: rgb(30, 29, 29);
-    color: white;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaWdvJTIwZGUlMjBwcm9ncmFtYWNpb258ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    
 }
 
 
@@ -34,7 +33,6 @@ body{
 list-style: none;
 }
 
-/* Color letra de navegadores */
 .menu a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -81,25 +79,43 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-shadow: 1px 3px 11px -5px #ee02ff;
     margin-top: 10px;
+    background-color: #ffffff00;
+    color: #FFFFFF;
 }
 
 .descargar-cv:hover{
-    background-color: #FFFFFF;
+    background-color: #ffffff00;
     box-shadow: none;
 
 }
 
-.about{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url("img/.about.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #FFFFFF;
 
 
+.sobremi{
+    height: 100vh; /* La altura del div será igual a la altura de la ventana del navegador */
+    background-image: url('https://i.pinimg.com/736x/9c/37/1c/9c371c11c4e4ecb12de36d6b12abe421.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Esto asegura que la imagen cubra completamente el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 50px 20px;
 }
 
 
+
+.sobremi{
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    align-items: center;
+    
+}
+
+.sobremi h1{
+    padding: 1em;
+    color: #ffffff;
+}
+
+.sobremi p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
