@@ -113,9 +113,26 @@ h2{
 
 .sobremi h1{
     padding: 1em;
-    color: #ffffff;
+    flex: 1;
 }
 
 .sobremi p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.experiencia{
+    background-color: rgb(22, 22, 22);
+}
+
+.experiencia h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    padding: 3em;
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 200px; 
+   
+
 }
