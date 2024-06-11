@@ -6,9 +6,40 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .wrapper {
-    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(30, 29, 29);
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+list-style: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu a:hover{
+    background-color: rgb(60, 57, 57);
+}
+
+.menu{
+    color: rgb(0, 0, 0);
 }
