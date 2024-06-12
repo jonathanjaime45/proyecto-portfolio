@@ -263,13 +263,16 @@ h2{
 }
 
 .footer{
-    background-color: rgb(23, 22, 22);
+    background-image: url(https://i.pinimg.com/736x/9c/37/1c/9c371c11c4e4ecb12de36d6b12abe421.jpg);
     display: flex;
     flex-direction: center;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 200px;
+}
 
+.footer-content h3{
+    color: white;
 
 }
