@@ -196,6 +196,7 @@ h2{
     background-color: rgb(117, 3, 109);
     position: relative;
     border-radius: 6px;
+    box-shadow: 0 2px 5px rgb(76, 0, 255);
 }
 
 .timeline-content h2 {
@@ -207,3 +208,54 @@ h2{
     margin: 0 0 10px 0;
 }
 
+.servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px; 
+    background-color: rgb(23, 22, 22);
+    margin: 0 auto; /
+    
+}
+.titulo-servicios {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+
+.servicio {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgb(76, 0, 255);
+    transition: transform 0.3s;
+}
+
+.servicio:hover {
+    transform: translateY(-10px);
+}
+
+.servicio i {
+    font-size: 50px;
+    color: #221637; 
+}
+
+.servicio h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #000000e1;
+}
+
+.servicio p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #666;
+}
