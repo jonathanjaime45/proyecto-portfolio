@@ -193,7 +193,7 @@ h2{
 
 .timeline-content {
     padding: 20px;
-    background-color: rgb(117, 3, 109);
+    background-color: rgba(180, 1, 153, 0.35);
     position: relative;
     border-radius: 6px;
     box-shadow: 0 2px 5px rgb(76, 0, 255);
@@ -216,13 +216,14 @@ h2{
     background-color: rgb(23, 22, 22);
     margin: 0 auto; /
     
+    
 }
 .titulo-servicios {
     text-align: center;
     font-size: 36px;
     margin-top: 20px; 
     margin-bottom: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -237,6 +238,7 @@ h2{
     text-align: center;
     box-shadow: 0 2px 5px rgb(76, 0, 255);
     transition: transform 0.3s;
+
 }
 
 .servicio:hover {
@@ -258,4 +260,16 @@ h2{
     margin-bottom: 0;
     font-size: 16px;
     color: #666;
+}
+
+.footer{
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+
+
 }
